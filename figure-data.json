@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "purpose": "Public evidence snapshot from frozen historical evaluator results. Figure preparation used no model or network call.",
+  "sources_sha256": {
+    "original_case_results_csv": "eb1ec6d2968345ab285799137d5dd85decc99bc1b0b4c64bcb260ccef69f530a",
+    "original_scored_results_json": "7c3cda5ea1988921b1f21e7831283dcf32c0ce269cc9f1aa98e68d60b0d8dc7d",
+    "reference_labels_jsonl": "7a4d234cf239c644a39b612aae553843070442c71484ea66c21d93b5087222aa",
+    "reference_expected_json": "7a55dd7bdcb78c8fd3f275ae85252409775f9536357313d9cbb74bc498130921",
+    "original_report_md": "1169f518bceec1fe34b84e308b010881499875f8efdb111cc370c05918dca816",
+    "completion_records_provenance_md": "251ead85a48034530e0235bba6ef7164b5c20dafc264fda24e9644fd196095b8"
+  },
+  "model_settings": {
+    "model": "deepseek-flash",
+    "thinking_enabled": false,
+    "temperature": 0,
+    "max_output_tokens": 8192,
+    "evidence_character_limit": 12000
+  },
+  "denominator": {
+    "records": 13,
+    "arms": 3,
+    "model_calls": 39,
+    "independent_tasks": false,
+    "completed_reference_records": 7,
+    "incomplete_reference_records": 6,
+    "excluded_deterministic_records": [
+      "c009",
+      "c014"
+    ],
+    "excluded_unresolved_record": "c016"
+  },
+  "columns": [
+    {
+      "key": "reference",
+      "title_zh": "独立核对结论",
+      "method": "Independent source/artifact regrade, not a model or historical judge"
+    },
+    {
+      "key": "A_native",
+      "title_zh": "A  现有格式"
+    },
+    {
+      "key": "B_artifact",
+      "title_zh": "B  补文件内容"
+    },
+    {
+      "key": "C_conversation",
+      "title_zh": "C  保留工具内容"
+    }
+  ],
+  "rows": [
+    {
+      "case_id": "c001",
+      "title_zh": "区域销售汇总",
+      "reference_satisfied": true,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "Recomputed four regional totals from all source rows; summary and descending Totals sheet exactly match; recorded present_files succeeds.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c002",
+      "title_zh": "入职指南与测验",
+      "reference_satisfied": true,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "The guide preserves all source facts, and five numbered quiz questions have answers consistent with the source. Both files were presented.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c003",
+      "title_zh": "库存清洗",
+      "reference_satisfied": true,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "Reapplied every cleaning rule in order to the source CSV; clean.csv and all change counts match; a plan was written first, and outputs were presented.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c004",
+      "title_zh": "长词表转换 · 第三轮结果",
+      "reference_satisfied": true,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "All JSON objects exactly equal the source entries in original order, including term, definition and tag; README count equals the parsed source count.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c005",
+      "title_zh": "工单汇总与幻灯片",
+      "reference_satisfied": false,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "At least one requested team count is wrong in both delivered workbook and deck; source rows independently establish the discrepancy.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        }
+      }
+    },
+    {
+      "case_id": "c006",
+      "title_zh": "36 分支报告 · 错误总额",
+      "reference_satisfied": false,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "The delivered summary and title slide report a network total that differs from the sum of all 36 source workbooks. Snapshot write payloads preserve the error; later saved artifacts contain a repair and are not used for this label.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        }
+      }
+    },
+    {
+      "case_id": "c007",
+      "title_zh": "词表转换 · 首次完成判定",
+      "reference_satisfied": false,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "JSONL exactly contains the source entries, while the delivered README says 132 rather than the independently parsed source/JSONL count. Later generic nudges are outside this first-decision snapshot.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        },
+        "B_artifact": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "goal_not_met_yet",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": false,
+          "blocker": "none",
+          "false_complete": true
+        }
+      }
+    },
+    {
+      "case_id": "c008",
+      "title_zh": "FAQ 大纲 · 待批准",
+      "reference_satisfied": false,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "The user explicitly requires seeing and approving the outline before the full FAQ. Only the outline exists at this snapshot; no approval has arrived.",
+      "judgments": {
+        "A_native": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "needs_user_input",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "needs_user_input",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "needs_user_input",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c010",
+      "title_zh": "合同批次 · 中途记录",
+      "reference_satisfied": false,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved_completion_blocker_ambiguous",
+      "reference_rationale": "The snapshot has 48 successful per-contract writes for 60 inputs and no required summary.xlsx. Completion is unambiguous; hard-stop versus continue blocker semantics are not part of the primary blocker denominator.",
+      "judgments": {
+        "A_native": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "goal_not_met_yet",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "goal_not_met_yet",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "goal_not_met_yet",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c011",
+      "title_zh": "词表转换 · 仅读取",
+      "reference_satisfied": false,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "The agent has read the glossary source and states an intent to write it, but no output write has succeeded at this snapshot.",
+      "judgments": {
+        "A_native": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "goal_not_met_yet",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "goal_not_met_yet",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": false,
+          "correct": true,
+          "blocker": "run_failed",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c012",
+      "title_zh": "60 份中文纪要 · 最终结果",
+      "reference_satisfied": true,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved_required_criteria",
+      "reference_rationale": "All 61 required snapshot outputs equal the independently regraded saved files after physical-path normalization. The strict source-fact/structure scorer passes all 60 minutes and every exact per-meeting index count with no parser uncertainty. This label is bounded to required criteria; it does not claim exhaustive semantic quality.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c013",
+      "title_zh": "60 份英文纪要 · 第三轮结果",
+      "reference_satisfied": true,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved_required_criteria",
+      "reference_rationale": "All 61 required snapshot outputs equal the independently regraded saved files after physical-path normalization. The strict source-fact/structure scorer passes all 60 minutes and every exact per-meeting index count with no parser uncertainty. This label is bounded to required criteria; it does not claim exhaustive semantic quality.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        }
+      }
+    },
+    {
+      "case_id": "c015",
+      "title_zh": "入职清单 · 卡片已答",
+      "reference_satisfied": true,
+      "reference_method": "source/artifact regrade; no historical judge or model",
+      "reference_label_status": "resolved",
+      "reference_rationale": "The recorded card response explicitly selects one benchmark hire. The delivered checklist preserves that hire's source facts and every template obligation, with no other hire's facts; file presentation succeeds.",
+      "judgments": {
+        "A_native": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "B_artifact": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        },
+        "C_conversation": {
+          "satisfied": true,
+          "correct": true,
+          "blocker": "none",
+          "false_complete": false
+        }
+      }
+    }
+  ],
+  "summary": {
+    "A_native": {
+      "correct": 10,
+      "false_complete": 3,
+      "false_incomplete": 0,
+      "denominator": 13
+    },
+    "B_artifact": {
+      "correct": 11,
+      "false_complete": 2,
+      "false_incomplete": 0,
+      "denominator": 13
+    },
+    "C_conversation": {
+      "correct": 10,
+      "false_complete": 3,
+      "false_incomplete": 0,
+      "denominator": 13
+    }
+  },
+  "limitations": {
+    "c006": {
+      "B_source_workbooks_visible": 2,
+      "total_source_workbooks": 36,
+      "reference_uses_all_sources": true,
+      "snapshot": "Earlier recorded write payloads; later repair excluded",
+      "interpretation": "B cannot fully validate the network total from two sources. The false-complete label does not imply the missing total was computable from its visible evidence."
+    },
+    "c012_c013": "Completion labels are bounded to registered required criteria, not exhaustive semantic quality.",
+    "scoring": "Only satisfied completion status is shown; blocker correctness is not scored in this figure.",
+    "causal_claim": "No human-intervention benefit, end-to-end task success rate, or model ranking is established.",
+    "scripted_user_inputs": "The original follow-up user messages (including the two continue messages for the 60-minutes cases) were scripted in advance; this is not a live-human-intervention comparison.",
+    "cost": "Historical cost is calculated from returned API usage and the contemporaneous pricing/cache rates; it is not a reconciled invoice or observed account-balance charge.",
+    "new_figure_calls": 0
+  },
+  "display_text": {
+    "title": "同一批记录的完成判定",
+    "subtitle": "13 份记录 × 3 组 = 39 次模型调用；不是 39 个独立任务",
+    "settings": "历史重放 · 2026-10-22 · deepseek-flash · thinking 关闭 · temperature = 0",
+    "finding": "B 仅纠正 c007；c005、c006 在三组中仍被判为完成",
+    "headers": [
+      "独立核对结论",
+      "A  现有格式",
+      "B  补文件内容",
+      "C  保留工具内容"
+    ],
+    "footnotes": [
+      "c005：Platform 实际 7 条 open，产物写 6；B 已看到全部 37 条源工单。",
+      "c006：独立核对使用全部 36 份源表；B 仅见 2/36 份，无法完整核算总额。",
+      "c006 使用含错的早期记录，后续修正版不计入；缺料不等于模型理应算出正确总额。",
+      "c007：源文件与 JSONL 均 130 条，README 写 132；仅 B 判为未完成。"
+    ],
+    "scope": "“完成”仅指满足登记的必需标准；c012/c013 不代表全文语义完美。图中不评分 blocker。",
+    "denominator": "另 2 条未答卡片由确定性检查处理，未调用模型；未决 c016 未运行，均不计入本图。",
+    "source": "来源：原逐记录结果、原评分结果与独立参考标签；仅重绘，无新模型调用。"
+  },
+  "rendering": {
+    "engine": "Pillow",
+    "canvas_px": [
+      3000,
+      2420
+    ],
+    "fonts": {
+      "Regular": "NotoSansCJKsc-Regular.otf",
+      "Bold": "NotoSansCJKsc-Bold.otf"
+    },
+    "text_bounds_and_overlap_checks": "passed",
+    "inputs_unchanged": true,
+    "image_sha256": "e8d5b09273bc76a76a1f8215a91b8303e07966312c2ff885fa324f36027b5f50",
+    "visual_inspection": "passed: view_image checked regenerated PNG; c006 label reads 36 分支报告 · 错误总额; no clipping or overlap"
+  },
+  "source_hashes_note": "These hashes identify the original private source files; names are provenance labels, not downloadable paths. Public CSV and report are redacted derivatives and have different hashes.",
+  "public_redactions": [
+    "Normalized local font paths to basenames.",
+    "Replaced private source-path hash keys with provenance labels, retaining original SHA-256 values.",
+    "Removed unavailable private per-case reference paths.",
+    "Replaced a benchmark person's name with a role description.",
+    "No prompts, raw provider responses, provider request identifiers, credentials, personal user data, or code are included."
+  ]
+}
