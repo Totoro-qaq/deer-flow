@@ -1,0 +1,14 @@
+68: 2026-10-23 14:08:39 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Using local container sandbox backend
+70: 2026-10-23 14:08:39 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Started sandbox ownership renewal thread (interval: 30.0s, ttl: 120.0s)
+71: 2026-10-23 14:08:39 - deerflow.community.warm_pool_lifecycle - INFO - Started warm-pool idle checker thread (timeout: 600s)
+78: 2026-10-23 14:08:42 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Created sandbox <container-or-worker-id> for thread <id> at http://<loopback>:<port>
+86: 2026-10-23 14:08:42 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Released sandbox <container-or-worker-id> to warm pool (container still running)
+98: INFO:     <loopback>:<port> - "GET /api/threads/<id>/artifacts/mnt/user-data/outputs/lifecycle.txt?download=true HTTP/1.1" 200 OK
+99: INFO:     Shutting down
+100: INFO:     Waiting for application shutdown.
+105: 2026-10-23 14:08:43 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Shutting down 0 active + 1 warm-pool sandbox(es)
+106: 2026-10-23 14:08:44 - deerflow.community.aio_sandbox.local_backend - INFO - Stopped container <container-or-worker-id> using docker
+107: 2026-10-23 14:08:44 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Destroyed warm-pool sandbox <container-or-worker-id> for shutdown
+108: 2026-10-23 14:08:44 - app.gateway.app - INFO - Shutting down API Gateway
+109: INFO:     Application shutdown complete.
+110: INFO:     Finished server process <pid>

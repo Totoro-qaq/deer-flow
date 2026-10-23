@@ -1,0 +1,367 @@
+{
+  "scope": "Local controlled validation: saved-record formatter replay, scripted native-worker regressions and real local Gateway/AIO container runs; not a real-model recovery-rate or production-failure-rate study.",
+  "paid_model_calls": 0,
+  "new_model_cost_cny": 0,
+  "goal_evidence": [
+    {
+      "condition": "ds",
+      "before_chars": 11953,
+      "after_chars": 11953,
+      "before_document_5": true,
+      "after_document_5": true,
+      "cap_chars": 12000
+    },
+    {
+      "condition": "zhipu",
+      "before_chars": 3767,
+      "after_chars": 11999,
+      "before_document_5": false,
+      "after_document_5": true,
+      "cap_chars": 12000
+    },
+    {
+      "condition": "12000 character boundary",
+      "before_chars": 12000,
+      "after_chars": 12000,
+      "before_document_5": true,
+      "after_document_5": true,
+      "cap_chars": 12000
+    },
+    {
+      "condition": "12001 character boundary",
+      "before_chars": 3641,
+      "after_chars": 11998,
+      "before_document_5": false,
+      "after_document_5": true,
+      "cap_chars": 12000
+    }
+  ],
+  "aio_shutdown": [
+    {
+      "phase": "before",
+      "n": 1,
+      "remaining_containers": 1,
+      "goal_achieved": true,
+      "artifact_bytes_match": true
+    },
+    {
+      "phase": "after",
+      "n": 1,
+      "remaining_containers": 0,
+      "goal_achieved": true,
+      "artifact_bytes_match": true
+    }
+  ],
+  "retry_assertions": [
+    {
+      "condition": "normal_verdict",
+      "critic_calls": 1,
+      "passed_test_instances": 2,
+      "recorded_critic_tokens": 100
+    },
+    {
+      "condition": "malformed_then_valid",
+      "critic_calls": 2,
+      "passed_test_instances": 2,
+      "recorded_critic_tokens": 200
+    },
+    {
+      "condition": "malformed_twice",
+      "critic_calls": 2,
+      "passed_test_instances": 2,
+      "recorded_critic_tokens": 200
+    },
+    {
+      "condition": "valid_unsatisfied",
+      "critic_calls": 1,
+      "passed_test_instances": 2,
+      "recorded_critic_tokens": 100
+    },
+    {
+      "condition": "user_abort_after_first_response",
+      "critic_calls": 1,
+      "passed_test_instances": 1,
+      "second_request_started": false,
+      "stale_verdict_persisted": false,
+      "recorded_critic_tokens": null,
+      "token_measurement": "Not measured for this state-change check."
+    },
+    {
+      "condition": "user_clear_after_first_response",
+      "critic_calls": 1,
+      "passed_test_instances": 1,
+      "second_request_started": false,
+      "stale_verdict_persisted": false,
+      "recorded_critic_tokens": null,
+      "token_measurement": "Not measured for this state-change check."
+    },
+    {
+      "condition": "user_replace_after_first_response",
+      "critic_calls": 1,
+      "passed_test_instances": 1,
+      "second_request_started": false,
+      "stale_verdict_persisted": false,
+      "recorded_critic_tokens": null,
+      "token_measurement": "Not measured for this state-change check."
+    },
+    {
+      "condition": "user_message_after_first_response",
+      "critic_calls": 1,
+      "passed_test_instances": 1,
+      "second_request_started": false,
+      "stale_verdict_persisted": false,
+      "recorded_critic_tokens": null,
+      "token_measurement": "Not measured for this state-change check."
+    }
+  ],
+  "joint_native_e2e": {
+    "n": 1,
+    "main_model_calls": 3,
+    "critic_calls": 2,
+    "file_tools": {
+      "write_file": 1,
+      "present_files": 1
+    },
+    "native_ledger": {
+      "total_input_tokens": 410,
+      "total_output_tokens": 110,
+      "total_tokens": 520,
+      "llm_call_count": 5,
+      "lead_agent_tokens": 300,
+      "middleware_tokens": 220,
+      "subagent_tokens": 0
+    },
+    "goal_achieved": true,
+    "same_critic_prompt": true,
+    "residual_containers": 0,
+    "all_checks_passed": true,
+    "source_commit": "e4c2bbd87e69567b28342b7e0db47f6e56b77805",
+    "aio_image_version": "1.11.0",
+    "model_responses": "Scripted local fake-provider responses; first critic reply intentionally malformed with finish_reason=stop, second valid.",
+    "critic_synthetic_token_totals": [
+      100,
+      120
+    ],
+    "artifact_http_status": 200,
+    "artifact_bytes": 22,
+    "artifact_bytes_match": true,
+    "stop_signal": "SIGTERM",
+    "continuations": 0,
+    "checker_correction": "The initial checker missed a ToolMessage with name=null. Counts were corrected using the same run tool_call_id, tool declarations and persisted successful receipts; no run or request was repeated."
+  },
+  "readme": "README.md",
+  "artifacts": [
+    "sandbox-shutdown-before-after.png",
+    "goal-evidence-before-after.png",
+    "goal-format-retry-cases.png",
+    "evidence-cap-red.redacted.txt",
+    "focused-final-with-refusal.redacted.txt",
+    "format-retry-red.redacted.txt",
+    "evidence-cap-green.redacted.txt",
+    "before-gateway.redacted.log",
+    "after-gateway.redacted.log",
+    "joint-gateway.redacted.log"
+  ],
+  "schema_version": 2,
+  "validation_date": "2026-10-23",
+  "cost_scope": "Zero new live supplier calls and CNY 0 for this validation. Earlier generation of saved benchmark records is outside the replay cost.",
+  "provenance": {
+    "baseline_commit": "cc013c96808e68ca99338841dd2ba997076e826d",
+    "goal_evidence_commit": "139d0395a59fffad02c69cb8cd20024d8d497103",
+    "goal_format_retry_commit": "f16d2e88847e9101430b5d1617ec85a0ac77ef4c",
+    "gateway_shutdown_commit": "bef1186949a0385f3ccbb73a987d5a986c162094",
+    "combined_integration_commit": "e4c2bbd87e69567b28342b7e0db47f6e56b77805",
+    "combined_integration_cherry_picks": [
+      "95a3f9a83",
+      "60498e897",
+      "e4c2bbd87"
+    ],
+    "full_regression_attribution": "The full combined regression counts below belong to combined_integration_commit; they are not attributed to a later publication or rebased commit."
+  },
+  "goal_evidence_method": {
+    "kind": "Zero-cost replay of existing saved records through the native formatter, plus a same-answer one-space boundary control.",
+    "cap_chars": 12000,
+    "saved_response_labels": [
+      "DS",
+      "GLM"
+    ],
+    "document_5_is_source_marker": true,
+    "recent_selected_reply_retained": true,
+    "model_verdict_recovery_proved": false,
+    "private_saved_record_bodies_included": false
+  },
+  "aio_configuration": {
+    "aio_image_version": "1.11.0",
+    "execution": "Real native Gateway, native sandbox provider and local AIO containers; scripted model replies.",
+    "sample_count_before": 1,
+    "sample_count_after": 1,
+    "same_fixture": true,
+    "same_adapter": true,
+    "baseline_backend_tree": "718ed58535adc1dbfcbcb125e1f62fcb0afe23fc",
+    "baseline_backend_byte_identical": true,
+    "before_source_commit": "505c33c793389451f2ce7183bdbd4f3465f22f66",
+    "after_base_source_commit": "cc013c96808e68ca99338841dd2ba997076e826d",
+    "after_patch_committed_as": "bef1186949a0385f3ccbb73a987d5a986c162094",
+    "after_run_patch_was_uncommitted": true,
+    "committed_patch_matches_run": true,
+    "adapter_sha256": "2e781656c97a607e0202519389432c7522a3390b2067940475f5328ea913d954",
+    "fixture_sha256": "2afa9912d20de449fc3caf1fb5fd15817091e1aa09816022e8220bf641d0611d",
+    "stop_signal": "SIGTERM",
+    "sigkill_used": false,
+    "artifact_http_status": 200,
+    "artifact_bytes": 22,
+    "artifact_sha256": "178fc3e20b334ccdb4de4b33027603efde4764e5fc81b6969fae13c07e6d4d3f",
+    "not_a_population_failure_rate": true
+  },
+  "retry_configuration": {
+    "execution": "Scripted native-worker regression assertions with in-memory and SQLite accounting fixtures.",
+    "synthetic_tokens_per_critic_call": {
+      "input": 80,
+      "output": 20,
+      "total": 100
+    },
+    "format_retry_limit": 1,
+    "only_explicitly_completed_malformed_verdicts_are_retried": true,
+    "termination_checks": {
+      "validated_instances": 8,
+      "refusal_not_retried": true,
+      "length_not_retried": true,
+      "unknown_outcome_not_retried": true
+    },
+    "real_model_recovery_probability_measured": false,
+    "main_task_tools_repeated": false
+  },
+  "full_combined_regression": {
+    "source_commit": "e4c2bbd87e69567b28342b7e0db47f6e56b77805",
+    "baseline_commit": "cc013c96808e68ca99338841dd2ba997076e826d",
+    "all_five_commands_exited_zero": true,
+    "non_live": {
+      "passed": 35816,
+      "skipped": 806
+    },
+    "blocking_io": {
+      "passed": 275,
+      "skipped": 1
+    },
+    "baseline_comparison": {
+      "non_live_passed_before": 35792,
+      "non_live_passed_after": 35816,
+      "non_live_passed_delta": 24,
+      "non_live_skipped_before": 806,
+      "non_live_skipped_after": 806,
+      "blocking_passed_before": 275,
+      "blocking_passed_after": 275,
+      "blocking_skipped_before": 1,
+      "blocking_skipped_after": 1
+    },
+    "python_version": "3.12.13",
+    "configuration": {
+      "live_tests_enabled": false,
+      "non_live_marker": "not live",
+      "non_live_ignored_directory": "tests/blocking_io",
+      "non_live_shards": 4,
+      "splitting_algorithm": "least_duration",
+      "blocking_io_directory": "tests/blocking_io",
+      "dependencies_changed": false,
+      "same_existing_environment_for_baseline_and_integration": true
+    },
+    "jobs": [
+      {
+        "name": "shard-1",
+        "exit_code": 0,
+        "counts": {
+          "passed": 8939,
+          "skipped": 217,
+          "warnings": 13
+        }
+      },
+      {
+        "name": "shard-2",
+        "exit_code": 0,
+        "counts": {
+          "passed": 8950,
+          "skipped": 206,
+          "warnings": 19
+        }
+      },
+      {
+        "name": "shard-3",
+        "exit_code": 0,
+        "counts": {
+          "passed": 8975,
+          "skipped": 180,
+          "warnings": 27
+        }
+      },
+      {
+        "name": "shard-4",
+        "exit_code": 0,
+        "counts": {
+          "passed": 8952,
+          "skipped": 203,
+          "warnings": 26
+        }
+      },
+      {
+        "name": "blocking-io",
+        "exit_code": 0,
+        "counts": {
+          "passed": 275,
+          "skipped": 1,
+          "warnings": 2
+        }
+      }
+    ],
+    "deselection_note": "Per-shard deselections are not summed as executed or unique tests.",
+    "initial_baseline_attempt": "An initial launch failed because bare python was absent from PATH. The corrected baseline and integration used the same existing virtualenv first on PATH; no source fix or test exclusion was used.",
+    "static_checks": {
+      "ruff_check": true,
+      "ruff_format": true,
+      "guidance_budget": true,
+      "git_diff_check": true
+    },
+    "local_validation_only": true
+  },
+  "publication_head_checks": {
+    "upstream_main": "0d3a562c5f6d991e815603827295c60c1814efbe",
+    "goal": {
+      "head": "8865d7d204914f590ba41696bcc1e460233f59f5",
+      "tests_passed": 440,
+      "test_files": [
+        "test_goal_runtime.py",
+        "test_goal_evaluator_accounting.py",
+        "test_goal_worker.py",
+        "test_llm_error_handling_middleware.py"
+      ],
+      "ruff_check": true,
+      "ruff_format": true,
+      "diff_check": true,
+      "guidance_errors": 0,
+      "guidance_soft_warnings": 2,
+      "clean": true
+    },
+    "gateway": {
+      "head": "604b385b46ad9ff606be10338e66c580884cc6d7",
+      "tests_passed": 59,
+      "test_files": [
+        "test_gateway_sandbox_shutdown.py",
+        "test_gateway_lifespan_shutdown.py",
+        "test_gateway_run_drain_shutdown.py",
+        "test_gateway_sigterm_delivery.py",
+        "test_gateway_memory_shutdown_cancellation.py",
+        "test_sandbox_provider_lifecycle.py"
+      ],
+      "ruff_check": true,
+      "ruff_format": true,
+      "diff_check": true,
+      "guidance_errors": 0,
+      "guidance_soft_warnings": 3,
+      "clean": true
+    },
+    "prior_combined_validation_head": "e4c2bbd87e69567b28342b7e0db47f6e56b77805",
+    "production_fix_files_unchanged_by_rebase": true,
+    "dependencies_changed": false,
+    "paid_model_calls_added": 0,
+    "cost_cny_added": 0
+  }
+}

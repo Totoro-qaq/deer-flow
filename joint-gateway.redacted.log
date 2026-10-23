@@ -1,0 +1,11 @@
+68: 2026-10-23 14:24:21 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Using local container sandbox backend
+78: 2026-10-23 14:24:23 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Created sandbox <container-or-worker-id> for thread <id> at http://<loopback>:<port>
+86: 2026-10-23 14:24:23 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Released sandbox <container-or-worker-id> to warm pool (container still running)
+88: 2026-10-23 14:24:23 - deerflow.runtime.runs.worker - INFO - Retrying one malformed goal evaluation for thread <id> after run <id>
+100: INFO:     <loopback>:<port> - "GET /api/threads/<id>/artifacts/mnt/user-data/outputs/lifecycle.txt?download=true HTTP/1.1" 200 OK
+101: INFO:     Shutting down
+107: 2026-10-23 14:24:23 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Shutting down 0 active + 1 warm-pool sandbox(es)
+108: 2026-10-23 14:24:27 - deerflow.community.aio_sandbox.local_backend - INFO - Stopped container <container-or-worker-id> using docker
+109: 2026-10-23 14:24:27 - deerflow.community.aio_sandbox.aio_sandbox_provider - INFO - Destroyed warm-pool sandbox <container-or-worker-id> for shutdown
+110: 2026-10-23 14:24:27 - app.gateway.app - INFO - Shutting down API Gateway
+111: INFO:     Application shutdown complete.

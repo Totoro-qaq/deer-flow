@@ -1,0 +1,9 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+_ test_format_visible_conversation_uses_spare_budget_for_long_user_input_at_the_cap _
+tests/test_goal_runtime.py:381: in test_format_visible_conversation_uses_spare_budget_for_long_user_input_at_the_cap
+    assert "IMPORTANT SOURCE ROW: 314159" in lines[0]
+E   AssertionError: assert 'IMPORTANT SOURCE ROW: 314159' in 'User: Review the supplied data. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx... [8006 more chars]'
+=========================== short test summary info ============================
+FAILED tests/test_goal_runtime.py::test_format_visible_conversation_uses_spare_budget_for_long_user_input_at_the_cap
+1 failed, 55 deselected in 0.74s

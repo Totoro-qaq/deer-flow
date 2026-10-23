@@ -1,0 +1,72 @@
+FFFF                                                                     [100%]
+=================================== FAILURES ===================================
+_ test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[memory-recovered_json] _
+tests/test_goal_evaluator_accounting.py:103: in test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic
+    assert row["llm_call_count"] == 1 + critic_calls
+E   assert 2 == (1 + 2)
+------------------------------ Captured log call -------------------------------
+WARNING  deerflow.runtime.runs.worker:worker.py:2678 Goal evaluator failed for thread result after run <run-id>
+Traceback (most recent call last):
+  File "<source>/backend/packages/harness/deerflow/runtime/runs/worker.py", line 2663, in _prepare_goal_continuation_input
+    evaluation = await evaluate_goal_completion(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 558, in evaluate_goal_completion
+    return parse_goal_evaluation_response(_extract_response_text(response.content), require_assumption_attribution=interaction_policy is not None and not interaction_policy.allows_clarification)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 159, in parse_goal_evaluation_response
+    raise ValueError("Goal evaluator response did not contain a JSON object.")
+ValueError: Goal evaluator response did not contain a JSON object.
+_ test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[memory-repeated_invalid_json] _
+tests/test_goal_evaluator_accounting.py:103: in test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic
+    assert row["llm_call_count"] == 1 + critic_calls
+E   assert 2 == (1 + 2)
+------------------------------ Captured log call -------------------------------
+WARNING  deerflow.runtime.runs.worker:worker.py:2678 Goal evaluator failed for thread result after run <run-id>
+Traceback (most recent call last):
+  File "<source>/backend/packages/harness/deerflow/runtime/runs/worker.py", line 2663, in _prepare_goal_continuation_input
+    evaluation = await evaluate_goal_completion(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 558, in evaluate_goal_completion
+    return parse_goal_evaluation_response(_extract_response_text(response.content), require_assumption_attribution=interaction_policy is not None and not interaction_policy.allows_clarification)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 159, in parse_goal_evaluation_response
+    raise ValueError("Goal evaluator response did not contain a JSON object.")
+ValueError: Goal evaluator response did not contain a JSON object.
+_ test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[sqlite-recovered_json] _
+tests/test_goal_evaluator_accounting.py:103: in test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic
+    assert row["llm_call_count"] == 1 + critic_calls
+E   assert 2 == (1 + 2)
+------------------------------ Captured log call -------------------------------
+WARNING  deerflow.runtime.runs.worker:worker.py:2678 Goal evaluator failed for thread result after run <run-id>
+Traceback (most recent call last):
+  File "<source>/backend/packages/harness/deerflow/runtime/runs/worker.py", line 2663, in _prepare_goal_continuation_input
+    evaluation = await evaluate_goal_completion(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 558, in evaluate_goal_completion
+    return parse_goal_evaluation_response(_extract_response_text(response.content), require_assumption_attribution=interaction_policy is not None and not interaction_policy.allows_clarification)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 159, in parse_goal_evaluation_response
+    raise ValueError("Goal evaluator response did not contain a JSON object.")
+ValueError: Goal evaluator response did not contain a JSON object.
+_ test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[sqlite-repeated_invalid_json] _
+tests/test_goal_evaluator_accounting.py:103: in test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic
+    assert row["llm_call_count"] == 1 + critic_calls
+E   assert 2 == (1 + 2)
+------------------------------ Captured log call -------------------------------
+WARNING  deerflow.runtime.runs.worker:worker.py:2678 Goal evaluator failed for thread result after run <run-id>
+Traceback (most recent call last):
+  File "<source>/backend/packages/harness/deerflow/runtime/runs/worker.py", line 2663, in _prepare_goal_continuation_input
+    evaluation = await evaluate_goal_completion(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 558, in evaluate_goal_completion
+    return parse_goal_evaluation_response(_extract_response_text(response.content), require_assumption_attribution=interaction_policy is not None and not interaction_policy.allows_clarification)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<source>/backend/packages/harness/deerflow/runtime/goal.py", line 159, in parse_goal_evaluation_response
+    raise ValueError("Goal evaluator response did not contain a JSON object.")
+ValueError: Goal evaluator response did not contain a JSON object.
+=========================== short test summary info ============================
+FAILED tests/test_goal_evaluator_accounting.py::test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[memory-recovered_json]
+FAILED tests/test_goal_evaluator_accounting.py::test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[memory-repeated_invalid_json]
+FAILED tests/test_goal_evaluator_accounting.py::test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[sqlite-recovered_json]
+FAILED tests/test_goal_evaluator_accounting.py::test_worker_terminal_ledger_includes_evaluator_usage_without_visible_critic[sqlite-repeated_invalid_json]
+4 failed, 11 deselected in 2.24s
