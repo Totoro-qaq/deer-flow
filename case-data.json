@@ -1,0 +1,580 @@
+{
+  "schema_version": "1.0",
+  "title": "Two attribution-control candidates",
+  "prepared_date": "2026-10-24",
+  "claim_status": "Candidate diagnostic controls; not an RSI admission-policy evaluation.",
+  "source_documents_sha256": {
+    "minutes-audit": "dff98ee847e8501c34a4b86364b15d23c1bb05a564f181e6bb05c933d23a9928",
+    "minutes-regrade": "655843e6db470b793395e094e458410d89aa65c74fed51a974298fddcd13e829",
+    "evidence-audit": "4ad73911e87b3c358488ec2eb42bbb14ee55489615c082cea6c42cf63346bd04",
+    "evidence-replay": "db46ba02662a73f015d9b57f7e180703ac2a330356f42ffb5aeca59038a12950"
+  },
+  "case_a": {
+    "analysis_date": "2026-10-22",
+    "mode": "Offline regrade of unchanged original final artifacts",
+    "scorer_version": "minutes-strict-v1",
+    "provider_calls": 0,
+    "goal_verdict_used_for_scoring": false,
+    "denominators": {
+      "saved_final_artifact_sets": 8,
+      "meetings_per_set": 60,
+      "meeting_note_outputs": 480,
+      "distinct_source_language_corpora": 2,
+      "source_meetings_per_language": 60,
+      "english_source_actions": 180,
+      "chinese_source_actions": 177
+    },
+    "completion": {
+      "recorded": {
+        "completed": 4,
+        "total": 8
+      },
+      "legacy_replay": {
+        "completed": 4,
+        "total": 8
+      },
+      "strict": {
+        "completed": 8,
+        "total": 8
+      }
+    },
+    "legacy_replays_matching_recorded": {
+      "matched": 8,
+      "total": 8
+    },
+    "strict_parser_uncertainties": 0,
+    "check_order": [
+      "expected nonempty files",
+      "registered facts and associated actions",
+      "decision and action sections",
+      "one identifiable index row per meeting",
+      "per-meeting action counts"
+    ],
+    "strict_check_details": [
+      "Every expected filename exists and is nonempty.",
+      "Every meeting has its source topic, full date, all attendees, decision token and exact action count; each action description, owner and due date occur together in one action row or list item.",
+      "Every meeting has actual decision and action sections.",
+      "Exactly one identifiable Markdown-table index row exists per source meeting and includes its source topic.",
+      "Each per-meeting count is exact in an unambiguous labelled action-count column; no N-1 tolerance."
+    ],
+    "runs": [
+      {
+        "run": "Run1",
+        "language": "en",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      },
+      {
+        "run": "Run2",
+        "language": "en",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      },
+      {
+        "run": "Run3",
+        "language": "en",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      },
+      {
+        "run": "Run4",
+        "language": "zh",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "index_counts_correct": 58,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      },
+      {
+        "run": "Run5",
+        "language": "zh",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      },
+      {
+        "run": "Run6",
+        "language": "zh",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "index_counts_correct": 58,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      },
+      {
+        "run": "Run7",
+        "language": "en",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "index_counts_correct": 57,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      },
+      {
+        "run": "Run8",
+        "language": "zh",
+        "meetings": 60,
+        "recorded": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ]
+        },
+        "legacy_replay": {
+          "passed_checks": 4,
+          "total_checks": 5,
+          "completed": false,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "index_counts_correct": 58,
+          "index_counts_total": 60
+        },
+        "strict": {
+          "passed_checks": 5,
+          "total_checks": 5,
+          "completed": true,
+          "checks": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "index_counts_correct": 60,
+          "index_counts_total": 60,
+          "index_rows": 60,
+          "parser_uncertainties": 0
+        }
+      }
+    ],
+    "controls": {
+      "reported_standard_library_tests_passed": 17,
+      "single_defect_cases_legacy_passes_but_strict_fails": [
+        "one wrong action count",
+        "one missing attendee",
+        "duplicate index row"
+      ]
+    },
+    "known_out_of_scope_error": {
+      "run": "Run6",
+      "field": "optional prose action total",
+      "reported": 175,
+      "source_total": 177,
+      "required_per_meeting_counts_correct": 60,
+      "required_per_meeting_counts_total": 60,
+      "was_validated_by_strict_score": false
+    },
+    "key_source_sha256": {
+      "legacy-scorer": "f88ce12e4290a4e477de24e04c1289aed4dcf009dd6a0b9a5ba99f83fa98e36c",
+      "strict-scorer": "4b9203d427aeef00707724e538d17b536b290477fab3b70685d3a974672607f7",
+      "strict-controls": "7a291607c5757e9ad0e41d5e0ff80f4a6cf3e8d604df3453d8137161453919bf",
+      "expected-en": "b4a209f28c326b04abce03ab8690df8718c7c46c19e178c08b09207dd0884438",
+      "expected-zh": "2277948c9bc0ae727af5e67f9c5d5c078ca31f4770936503f967ed39008e6e76",
+      "historical-records-a": "95398bd876488cd7443b5dabd3a3d4edc1e53eacb885c8bc9445a92124b4ba88",
+      "historical-records-b": "a568e49b0e46efec3d1706572c965dba3f08d0ce282453317732adeb3269edf0"
+    },
+    "full_local_input_manifest": {
+      "entries": 617,
+      "retained_locally": true,
+      "sha256_of_containing_original_report": "655843e6db470b793395e094e458410d89aa65c74fed51a974298fddcd13e829",
+      "public_manifest_included": false
+    },
+    "limitations": [
+      "The eight rows are saved output sets from two 60-meeting language corpora, not eight independent random benchmark samples.",
+      "Four fail-to-pass labels correct legacy index-parser false negatives; no output was repaired, regenerated or rerun.",
+      "The score checks registered facts and structure, not exhaustive semantic quality or every discussion sentence or decision clause.",
+      "Optional prose totals and supplementary trackers are not graded; the known 175-versus-177 prose error remains.",
+      "Final-deliverable regrades do not establish whether earlier completion claims were timely or correct.",
+      "The bounded parser does not infer arbitrary paraphrases; an unsupported format can require manual review."
+    ]
+  },
+  "case_b": {
+    "analysis_date": "2026-10-23",
+    "mode": "Zero-provider native-formatter replay from retained first-turn state",
+    "frozen_source_commit": "505c33c793389451f2ce7183bdbd4f3465f22f66",
+    "native_goal_source_sha256": "342d27728b626859b85380a2b8130a6b0a18314aed4ed3ba2b19ab4a30372ef9",
+    "provider_requests": 0,
+    "new_model_verdicts": 0,
+    "reads_future_turns": false,
+    "reads_reference_answers": false,
+    "character_count_scope": "Conversation evidence, including role formatting; excludes separately prepended goal objective and evaluator instructions.",
+    "document_5_source_offset_zero_based": 3694,
+    "actual_reconstructions": [
+      {
+        "label": "ObservedA",
+        "source_user_characters": 10375,
+        "answer_characters": 1559,
+        "conversation_evidence_before_cap": 11953,
+        "conversation_evidence_after_cap": 11953,
+        "cap_characters": 12000,
+        "unused_cap_characters": 47,
+        "document_5_received_by_lead_agent": true,
+        "document_5_retained_for_evaluator": true,
+        "source_user_sha256": "48777640e7d2df7b002324ed6caa4d89ac8be91b792f5650c199c92100cc2031",
+        "answer_sha256": "2791398c0a4b7f6c2b8f1cc12a5c80a07d1f2f4ebd18f964bc2787b37a41f7d9",
+        "formatted_evidence_sha256": "227473a0d25384d88c7acee2c9268f34565382a317aaec9e7d335cc529219bba",
+        "historical_goal_outcome": "achieved"
+      },
+      {
+        "label": "ObservedB",
+        "source_user_characters": 10375,
+        "answer_characters": 1733,
+        "conversation_evidence_before_cap": 12127,
+        "conversation_evidence_after_cap": 3767,
+        "cap_characters": 12000,
+        "unused_cap_characters": 8233,
+        "document_5_received_by_lead_agent": true,
+        "document_5_retained_for_evaluator": false,
+        "source_user_sha256": "48777640e7d2df7b002324ed6caa4d89ac8be91b792f5650c199c92100cc2031",
+        "answer_sha256": "1d159439ae1f2d3fe79513aca010cef9259add8e4a5b52caa05c95cd715d8aa5",
+        "formatted_evidence_sha256": "94115b18638e94752c967cb88360440b407f6b93807f8db48ad08950f9798f81",
+        "historical_goal_outcome": "blocked:missing_evidence"
+      }
+    ],
+    "same_answer_boundary_controls": [
+      {
+        "extra_internal_spaces": 47,
+        "conversation_evidence_before_cap": 12000,
+        "conversation_evidence_after_cap": 12000,
+        "cap_characters": 12000,
+        "unused_cap_characters": 0,
+        "document_5_retained_for_evaluator": true,
+        "answer_equal_after_whitespace_normalization": true,
+        "hypothetical_only": true,
+        "new_verdict_generated": false,
+        "answer_sha256": "afaf1478dcd6dcdd4e47e1a359f7da9db810f669b6eed0d63debcbc5d0feb6c8",
+        "formatted_evidence_sha256": "6253f5cb4ed69e1c4d0d8e5a81fd0bab3fdf20939d0e2d7176cb1270c4f8462b"
+      },
+      {
+        "extra_internal_spaces": 48,
+        "conversation_evidence_before_cap": 12001,
+        "conversation_evidence_after_cap": 3641,
+        "cap_characters": 12000,
+        "unused_cap_characters": 8359,
+        "document_5_retained_for_evaluator": false,
+        "answer_equal_after_whitespace_normalization": true,
+        "hypothetical_only": true,
+        "new_verdict_generated": false,
+        "answer_sha256": "1e78c64c09d081f5928c85460562447ca910714fef617453780fc0907415885e",
+        "formatted_evidence_sha256": "57be2d928669956b40a6dd2086bbadc24ba59fc7237b2d1421dfec358b3ca870"
+      }
+    ],
+    "formatter_mechanism": {
+      "whole_message_line_packing": true,
+      "latest_user_fallback_limit_including_role_prefix": 2000,
+      "original_user_characters_retained_in_fallback": 1994,
+      "formatted_fallback_user_line_characters_with_marker": 2021
+    },
+    "input_sha256": {
+      "observed-a-state": "ca1b0d47791f7d483399e16b8e68f0a2e84b9f74735e747d1edcf325de4596dd",
+      "observed-a-request": "f70f06c76472699701e7092ef656224a7c8e0e4a81deb17690f4d12489cbe948",
+      "observed-a-initial-goal": "533a8e9ffecd61b5f424275475a324393a22e2d65571664c70d9438f775f3724",
+      "observed-a-configuration": "5b9ebd87ac9171179a362cd3e85027023056385c28c317b6cd4adeba256318b7",
+      "observed-b-state": "2b35a8547c1a6aaebe299ceca59e2f4c2f480a691ac41b9aa005f608b85c89d4",
+      "observed-b-request": "0a52a05df4eae09fb920cdf104f8b2e6870dd35efde5943306776ecaabb8cffb",
+      "observed-b-initial-goal": "533a8e9ffecd61b5f424275475a324393a22e2d65571664c70d9438f775f3724",
+      "observed-b-configuration": "526a7f0ce414421bd4e92e52fe43e54f6d7f390246ff134df69029e76cbcd36b"
+    },
+    "limitations": [
+      "Observed answers differ, so their historical goal outcomes do not isolate an effect of evidence truncation on the verdict or establish either answer is fully correct.",
+      "The same-answer comparison changes one internal space between the two variants; its result concerns evidence allocation only.",
+      "The boundary variants are hypothetical formatter inputs, not new benchmark responses; no counterfactual verdict was generated.",
+      "Reconstructed evaluator prompts are deterministic reconstructions, not historical wire captures.",
+      "No fuller-evidence rerun was performed, so improved adjudication after restoring evidence has not been demonstrated."
+    ]
+  },
+  "shared_limitations": [
+    "These cases are misattribution-control candidates for separating artifact quality, scoring, and evaluator evidence access.",
+    "Neither case tests an RSI admission policy.",
+    "No quantitative benefit from human intervention has been measured."
+  ],
+  "public_package_scope": "Aggregate results, anonymized per-set scores, selected source hashes, and limitations only; raw prompts, responses, meeting text, source code, and execution scripts are excluded."
+}

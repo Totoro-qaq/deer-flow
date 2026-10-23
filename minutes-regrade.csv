@@ -1,0 +1,9 @@
+run,language,meetings,recorded_score,legacy_score,strict_score,recorded_c1,recorded_c2,recorded_c3,recorded_c4,recorded_c5,legacy_c1,legacy_c2,legacy_c3,legacy_c4,legacy_c5,strict_c1,strict_c2,strict_c3,strict_c4,strict_c5,legacy_index_counts_correct,strict_index_counts_correct,strict_index_rows,strict_parser_uncertainties
+Run1,en,60,5/5,5/5,5/5,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,60,60,60,0
+Run2,en,60,5/5,5/5,5/5,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,60,60,60,0
+Run3,en,60,5/5,5/5,5/5,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,60,60,60,0
+Run4,zh,60,4/5,4/5,5/5,true,true,true,true,false,true,true,true,true,false,true,true,true,true,true,58,60,60,0
+Run5,zh,60,5/5,5/5,5/5,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,60,60,60,0
+Run6,zh,60,4/5,4/5,5/5,true,true,true,true,false,true,true,true,true,false,true,true,true,true,true,58,60,60,0
+Run7,en,60,4/5,4/5,5/5,true,true,true,true,false,true,true,true,true,false,true,true,true,true,true,57,60,60,0
+Run8,zh,60,4/5,4/5,5/5,true,true,true,true,false,true,true,true,true,false,true,true,true,true,true,58,60,60,0
