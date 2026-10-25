@@ -1,0 +1,68 @@
+[
+  {
+    "case": "observed-A-deepseek",
+    "evaluator_input_sha256": "2de22e229e19f00c131c5ac3526a8ed36cac67f7e27e651ac5609dab0fac582e",
+    "counts": {
+      "source_user_chars": 10375,
+      "answer_chars": 1559,
+      "uncapped_evidence_chars": 11953,
+      "formatted_total_chars": 11953,
+      "cap_chars": 12000,
+      "unused_cap_chars": 47,
+      "document_5_source_offset_zero_based": 3694,
+      "source_document_ids": [
+        "85",
+        "5"
+      ],
+      "formatted_document_ids": [
+        "85",
+        "5"
+      ],
+      "document_5_kept": true,
+      "formatted_sha256": "227473a0d25384d88c7acee2c9268f34565382a317aaec9e7d335cc529219bba"
+    },
+    "historical_verdict": {
+      "status": "achieved",
+      "objective": "Your objective is to produce a summary of all the document with 6 bullet points covering the main insights regarding the following query: Are home health monitoring tips discussed?. Careful: - [Format] You should format your summary as a bullet point list, where each bullet point is a different insight. - [References] For each insight, you should refer to the relevant conversations by using the IDs given in the conversation list. For example: \"some of the doctors ask patients for their medical history[1][4]\" which means that the insight is supported by Document 1 and Document 4. No need to say \"Conversation 14\", you can just use the following structure: \"[14]\". - [Length] Your summary should be no longer than 300 words in total.",
+      "continuation_count": 0,
+      "max_continuations": 8,
+      "reason": "The assistant produced a 6-bullet summary answering the query about home health monitoring tips, used bracketed document IDs for each insight, kept it under 300 words, and transparently noted only two of the 14 conversations were supplied. This matches the requested format and references requirements.",
+      "relied_on_assumption": false
+    }
+  },
+  {
+    "case": "observed-B-glm",
+    "evaluator_input_sha256": "c1492fc526a38c8ffb5388a07e74e40f10269edae83ed255296b6fa26b1f1fa0",
+    "counts": {
+      "source_user_chars": 10375,
+      "answer_chars": 1733,
+      "uncapped_evidence_chars": 12127,
+      "formatted_total_chars": 3767,
+      "cap_chars": 12000,
+      "unused_cap_chars": 8233,
+      "document_5_source_offset_zero_based": 3694,
+      "source_document_ids": [
+        "85",
+        "5"
+      ],
+      "formatted_document_ids": [
+        "85"
+      ],
+      "document_5_kept": false,
+      "formatted_sha256": "94115b18638e94752c967cb88360440b407f6b93807f8db48ad08950f9798f81"
+    },
+    "historical_verdict": {
+      "satisfied": false,
+      "blocker": "missing_evidence",
+      "reason": "The summary satisfies the formal constraints: it is a 6-bullet list, uses [ID] citations, and is roughly 260 words (under 300). Its claims about Document 85 are largely supported by the visible text (pulse oximeter with >95% oxygen saturation target, home blood pressure monitoring, hydration/rest advice, escalation guidance, follow-up planning). However, full satisfaction cannot be proven from the visible evidence: two of the six bullets cite Document [5] (dizziness triggers, Tai Chi/yoga balance exercises, nightly mindfulness meditation), and Document 5's content is not visible anywhere in the evidence. The user stated 14 conversations were provided, but only one truncated document (85) is visible, so completeness of coverage across all documents cannot be confirmed, and details appearing only in the truncated portion of Document 85 (twice-daily BP checks, 120/80 mmHg target, 2 liters of water daily, planned MRI) cannot be verified against source text.",
+      "evidence_summary": "Visible Document 85 directly supports several summary claims: the doctor recommends a finger pulse oximeter with readings above 95%, keeping track of blood pressure at home, reaching out if oxygen saturation drops significantly, rest/hydration, and a follow-up appointment. The assistant produced a 6-bullet, referenced summary under 300 words. But bullets 5 and 6 rely entirely on Document [5], which is absent from the visible evidence, and only one of the stated 14 conversations is shown, so accuracy of the [5] insights and coverage of all documents are unverifiable.",
+      "relied_on_assumption": false,
+      "progress_key": "{\"blocker\": \"missing_evidence\", \"evidence_signature\": \"1d159439ae1f2d3fe79513aca010cef9259add8e4a5b52caa05c95cd715d8aa5\", \"satisfied\": false}",
+      "operation_progress": {
+        "version": 1,
+        "seen_keys": []
+      },
+      "stand_down_reason": "blocked:missing_evidence"
+    }
+  }
+]

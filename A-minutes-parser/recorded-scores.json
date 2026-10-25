@@ -1,0 +1,90 @@
+[
+  {
+    "run": "Run1",
+    "language": "en",
+    "recorded": {
+      "passed": 5,
+      "total": 5,
+      "completed": true
+    },
+    "recorded_failing_checks": []
+  },
+  {
+    "run": "Run2",
+    "language": "en",
+    "recorded": {
+      "passed": 5,
+      "total": 5,
+      "completed": true
+    },
+    "recorded_failing_checks": []
+  },
+  {
+    "run": "Run3",
+    "language": "en",
+    "recorded": {
+      "passed": 5,
+      "total": 5,
+      "completed": true
+    },
+    "recorded_failing_checks": []
+  },
+  {
+    "run": "Run4",
+    "language": "zh",
+    "recorded": {
+      "passed": 4,
+      "total": 5,
+      "completed": false
+    },
+    "recorded_failing_checks": [
+      "index.md: action counts (N-1)"
+    ]
+  },
+  {
+    "run": "Run5",
+    "language": "zh",
+    "recorded": {
+      "passed": 5,
+      "total": 5,
+      "completed": true
+    },
+    "recorded_failing_checks": []
+  },
+  {
+    "run": "Run6",
+    "language": "zh",
+    "recorded": {
+      "passed": 4,
+      "total": 5,
+      "completed": false
+    },
+    "recorded_failing_checks": [
+      "index.md: action counts (N-1)"
+    ]
+  },
+  {
+    "run": "Run7",
+    "language": "en",
+    "recorded": {
+      "passed": 4,
+      "total": 5,
+      "completed": false
+    },
+    "recorded_failing_checks": [
+      "index.md: action counts (N-1)"
+    ]
+  },
+  {
+    "run": "Run8",
+    "language": "zh",
+    "recorded": {
+      "passed": 4,
+      "total": 5,
+      "completed": false
+    },
+    "recorded_failing_checks": [
+      "index.md: action counts (N-1)"
+    ]
+  }
+]

@@ -1,0 +1,1817 @@
+{
+ "task": "minutes",
+ "lang": "en",
+ "rung": 2,
+ "folder": "/mnt/demo/meetings/notes_h2",
+ "n": 60,
+ "items": [
+  {
+   "stem": "2026-07-01-growth-weekly",
+   "date": "2026-07-01",
+   "title": "Growth weekly: rising return rate",
+   "attendees": [
+    "Mei",
+    "Elena",
+    "Hanna",
+    "Dev",
+    "Lucia"
+   ],
+   "decision_token": "B4",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Mei",
+     "what": "write up the requirements doc",
+     "due": "2026-07-04"
+    },
+    {
+     "owner": "Elena",
+     "what": "update the schedule",
+     "due": "2026-07-06"
+    },
+    {
+     "owner": "Hanna",
+     "what": "reconcile the budget lines",
+     "due": "2026-07-08"
+    },
+    {
+     "owner": "Dev",
+     "what": "backfill last week's data",
+     "due": "2026-07-10"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-08-product-review",
+   "date": "2026-07-08",
+   "title": "Product review: dashboard metric definitions",
+   "attendees": [
+    "Hanna",
+    "Ben",
+    "Tom",
+    "Jonas"
+   ],
+   "decision_token": "C2",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Hanna",
+     "what": "draft a first design",
+     "due": "2026-07-11"
+    },
+    {
+     "owner": "Ben",
+     "what": "walk legal through the contract",
+     "due": "2026-07-13"
+    },
+    {
+     "owner": "Tom",
+     "what": "send the internal announcement",
+     "due": "2026-07-15"
+    },
+    {
+     "owner": "Jonas",
+     "what": "write the retro report",
+     "due": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-15-tech-design",
+   "date": "2026-07-15",
+   "title": "Tech design discussion: new-user onboarding flow",
+   "attendees": [
+    "Rob",
+    "Hanna",
+    "Omar",
+    "Priya",
+    "Jonas"
+   ],
+   "decision_token": "C2",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Rob",
+     "what": "get a quote from the supplier",
+     "due": "2026-07-18"
+    },
+    {
+     "owner": "Hanna",
+     "what": "prepare training material",
+     "due": "2026-07-20"
+    },
+    {
+     "owner": "Omar",
+     "what": "write up the requirements doc",
+     "due": "2026-07-22"
+    },
+    {
+     "owner": "Priya",
+     "what": "update the schedule",
+     "due": "2026-07-24"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-22-ops-retro",
+   "date": "2026-07-22",
+   "title": "Ops retro: contract approval flow",
+   "attendees": [
+    "Lucia",
+    "Carlos",
+    "Marcus"
+   ],
+   "decision_token": "A8",
+   "budget": 15,
+   "actions": [
+    {
+     "owner": "Lucia",
+     "what": "backfill last week's data",
+     "due": "2026-07-25"
+    },
+    {
+     "owner": "Carlos",
+     "what": "run an A/B test",
+     "due": "2026-07-27"
+    },
+    {
+     "owner": "Marcus",
+     "what": "draft a first design",
+     "due": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-02-sales-sync",
+   "date": "2026-07-02",
+   "title": "Sales sync: warehouse move",
+   "attendees": [
+    "Sara",
+    "Elena",
+    "Marcus",
+    "Jonas"
+   ],
+   "decision_token": "D5",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Sara",
+     "what": "write the retro report",
+     "due": "2026-07-05"
+    },
+    {
+     "owner": "Elena",
+     "what": "collect customer feedback",
+     "due": "2026-07-07"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-09-support-quality",
+   "date": "2026-07-09",
+   "title": "Support quality review: dashboard metric definitions",
+   "attendees": [
+    "Tom",
+    "Jonas",
+    "Hanna",
+    "Aisha",
+    "Lucia"
+   ],
+   "decision_token": "A6",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Tom",
+     "what": "update the schedule",
+     "due": "2026-07-12"
+    },
+    {
+     "owner": "Jonas",
+     "what": "reconcile the budget lines",
+     "due": "2026-07-14"
+    },
+    {
+     "owner": "Hanna",
+     "what": "backfill last week's data",
+     "due": "2026-07-16"
+    },
+    {
+     "owner": "Aisha",
+     "what": "run an A/B test",
+     "due": "2026-07-18"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-16-campaign-planning",
+   "date": "2026-07-16",
+   "title": "Campaign planning: app home redesign",
+   "attendees": [
+    "Yuki",
+    "Priya",
+    "Sara"
+   ],
+   "decision_token": "B3",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Yuki",
+     "what": "walk legal through the contract",
+     "due": "2026-07-19"
+    },
+    {
+     "owner": "Priya",
+     "what": "send the internal announcement",
+     "due": "2026-07-21"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-23-budget-review",
+   "date": "2026-07-23",
+   "title": "Budget review: support response times",
+   "attendees": [
+    "Dev",
+    "Marcus",
+    "Elena",
+    "Ben"
+   ],
+   "decision_token": "D8",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Dev",
+     "what": "prepare training material",
+     "due": "2026-07-26"
+    },
+    {
+     "owner": "Marcus",
+     "what": "write up the requirements doc",
+     "due": "2026-07-28"
+    },
+    {
+     "owner": "Elena",
+     "what": "update the schedule",
+     "due": "2026-07-28"
+    },
+    {
+     "owner": "Ben",
+     "what": "reconcile the budget lines",
+     "due": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-03-hiring-sync",
+   "date": "2026-07-03",
+   "title": "Hiring sync: rising return rate",
+   "attendees": [
+    "Ben",
+    "Rob",
+    "Lucia",
+    "Priya"
+   ],
+   "decision_token": "A3",
+   "budget": 15,
+   "actions": [
+    {
+     "owner": "Ben",
+     "what": "run an A/B test",
+     "due": "2026-07-06"
+    },
+    {
+     "owner": "Rob",
+     "what": "draft a first design",
+     "due": "2026-07-08"
+    },
+    {
+     "owner": "Lucia",
+     "what": "walk legal through the contract",
+     "due": "2026-07-10"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-10-supply-chain",
+   "date": "2026-07-10",
+   "title": "Supply chain check-in: live-shopping pilot",
+   "attendees": [
+    "Mei",
+    "Hanna",
+    "Marcus"
+   ],
+   "decision_token": "C2",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Mei",
+     "what": "collect customer feedback",
+     "due": "2026-07-13"
+    },
+    {
+     "owner": "Hanna",
+     "what": "get a quote from the supplier",
+     "due": "2026-07-15"
+    },
+    {
+     "owner": "Marcus",
+     "what": "prepare training material",
+     "due": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-17-growth-weekly",
+   "date": "2026-07-17",
+   "title": "Growth weekly: rising return rate",
+   "attendees": [
+    "Priya",
+    "Tom",
+    "Rob",
+    "Mei"
+   ],
+   "decision_token": "D8",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Priya",
+     "what": "reconcile the budget lines",
+     "due": "2026-07-20"
+    },
+    {
+     "owner": "Tom",
+     "what": "backfill last week's data",
+     "due": "2026-07-22"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-24-product-review",
+   "date": "2026-07-24",
+   "title": "Product review: support response times",
+   "attendees": [
+    "Mei",
+    "Aisha",
+    "Rob"
+   ],
+   "decision_token": "B6",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Mei",
+     "what": "send the internal announcement",
+     "due": "2026-07-27"
+    },
+    {
+     "owner": "Aisha",
+     "what": "write the retro report",
+     "due": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-04-tech-design",
+   "date": "2026-07-04",
+   "title": "Tech design discussion: rising return rate",
+   "attendees": [
+    "Sara",
+    "Priya",
+    "Tom",
+    "Ben",
+    "Elena"
+   ],
+   "decision_token": "C5",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Sara",
+     "what": "write up the requirements doc",
+     "due": "2026-07-07"
+    },
+    {
+     "owner": "Priya",
+     "what": "update the schedule",
+     "due": "2026-07-09"
+    },
+    {
+     "owner": "Tom",
+     "what": "reconcile the budget lines",
+     "due": "2026-07-11"
+    },
+    {
+     "owner": "Ben",
+     "what": "backfill last week's data",
+     "due": "2026-07-13"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-11-ops-retro",
+   "date": "2026-07-11",
+   "title": "Ops retro: supplier lead times",
+   "attendees": [
+    "Rob",
+    "Lucia",
+    "Mei",
+    "Marcus"
+   ],
+   "decision_token": "C4",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Rob",
+     "what": "draft a first design",
+     "due": "2026-07-14"
+    },
+    {
+     "owner": "Lucia",
+     "what": "walk legal through the contract",
+     "due": "2026-07-16"
+    },
+    {
+     "owner": "Mei",
+     "what": "send the internal announcement",
+     "due": "2026-07-18"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-18-sales-sync",
+   "date": "2026-07-18",
+   "title": "Sales sync: rising return rate",
+   "attendees": [
+    "Hanna",
+    "Sara",
+    "Marcus",
+    "Yuki",
+    "Ben"
+   ],
+   "decision_token": "B6",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Hanna",
+     "what": "get a quote from the supplier",
+     "due": "2026-07-21"
+    },
+    {
+     "owner": "Sara",
+     "what": "prepare training material",
+     "due": "2026-07-23"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-25-support-quality",
+   "date": "2026-07-25",
+   "title": "Support quality review: new-user onboarding flow",
+   "attendees": [
+    "Rob",
+    "Ben",
+    "Dev",
+    "Elena"
+   ],
+   "decision_token": "C3",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Rob",
+     "what": "backfill last week's data",
+     "due": "2026-07-28"
+    },
+    {
+     "owner": "Ben",
+     "what": "run an A/B test",
+     "due": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-05-campaign-planning",
+   "date": "2026-07-05",
+   "title": "Campaign planning: holiday campaign budget",
+   "attendees": [
+    "Rob",
+    "Sara",
+    "Mei",
+    "Yuki"
+   ],
+   "decision_token": "B7",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Rob",
+     "what": "write the retro report",
+     "due": "2026-07-08"
+    },
+    {
+     "owner": "Sara",
+     "what": "collect customer feedback",
+     "due": "2026-07-10"
+    },
+    {
+     "owner": "Mei",
+     "what": "get a quote from the supplier",
+     "due": "2026-07-12"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-12-budget-review",
+   "date": "2026-07-12",
+   "title": "Budget review: dashboard metric definitions",
+   "attendees": [
+    "Hanna",
+    "Carlos",
+    "Dev",
+    "Elena"
+   ],
+   "decision_token": "B6",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Hanna",
+     "what": "update the schedule",
+     "due": "2026-07-15"
+    },
+    {
+     "owner": "Carlos",
+     "what": "reconcile the budget lines",
+     "due": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-19-hiring-sync",
+   "date": "2026-07-19",
+   "title": "Hiring sync: rising return rate",
+   "attendees": [
+    "Hanna",
+    "Dev",
+    "Ben",
+    "Priya"
+   ],
+   "decision_token": "C8",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Hanna",
+     "what": "walk legal through the contract",
+     "due": "2026-07-22"
+    },
+    {
+     "owner": "Dev",
+     "what": "send the internal announcement",
+     "due": "2026-07-24"
+    },
+    {
+     "owner": "Ben",
+     "what": "write the retro report",
+     "due": "2026-07-26"
+    },
+    {
+     "owner": "Priya",
+     "what": "collect customer feedback",
+     "due": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-07-26-supply-chain",
+   "date": "2026-07-26",
+   "title": "Supply chain check-in: overseas storefront launch",
+   "attendees": [
+    "Dev",
+    "Yuki",
+    "Tom"
+   ],
+   "decision_token": "C6",
+   "budget": 15,
+   "actions": [
+    {
+     "owner": "Dev",
+     "what": "prepare training material",
+     "due": "2026-07-28"
+    },
+    {
+     "owner": "Yuki",
+     "what": "write up the requirements doc",
+     "due": "2026-07-28"
+    },
+    {
+     "owner": "Tom",
+     "what": "update the schedule",
+     "due": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-06-growth-weekly",
+   "date": "2026-08-06",
+   "title": "Growth weekly: push notification frequency",
+   "attendees": [
+    "Mei",
+    "Carlos",
+    "Elena",
+    "Omar"
+   ],
+   "decision_token": "C2",
+   "budget": 15,
+   "actions": [
+    {
+     "owner": "Mei",
+     "what": "run an A/B test",
+     "due": "2026-08-09"
+    },
+    {
+     "owner": "Carlos",
+     "what": "draft a first design",
+     "due": "2026-08-11"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-13-product-review",
+   "date": "2026-08-13",
+   "title": "Product review: Q4 pricing",
+   "attendees": [
+    "Aisha",
+    "Mei",
+    "Elena",
+    "Sara",
+    "Ben"
+   ],
+   "decision_token": "D9",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Aisha",
+     "what": "collect customer feedback",
+     "due": "2026-08-16"
+    },
+    {
+     "owner": "Mei",
+     "what": "get a quote from the supplier",
+     "due": "2026-08-18"
+    },
+    {
+     "owner": "Elena",
+     "what": "prepare training material",
+     "due": "2026-08-20"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-20-tech-design",
+   "date": "2026-08-20",
+   "title": "Tech design discussion: Q4 pricing",
+   "attendees": [
+    "Aisha",
+    "Ben",
+    "Tom",
+    "Lucia",
+    "Dev"
+   ],
+   "decision_token": "C2",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Aisha",
+     "what": "reconcile the budget lines",
+     "due": "2026-08-23"
+    },
+    {
+     "owner": "Ben",
+     "what": "backfill last week's data",
+     "due": "2026-08-25"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-27-ops-retro",
+   "date": "2026-08-27",
+   "title": "Ops retro: support response times",
+   "attendees": [
+    "Yuki",
+    "Rob",
+    "Mei",
+    "Aisha",
+    "Ben"
+   ],
+   "decision_token": "B6",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Yuki",
+     "what": "send the internal announcement",
+     "due": "2026-08-28"
+    },
+    {
+     "owner": "Rob",
+     "what": "write the retro report",
+     "due": "2026-08-28"
+    },
+    {
+     "owner": "Mei",
+     "what": "collect customer feedback",
+     "due": "2026-08-28"
+    },
+    {
+     "owner": "Aisha",
+     "what": "get a quote from the supplier",
+     "due": "2026-08-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-07-sales-sync",
+   "date": "2026-08-07",
+   "title": "Sales sync: overseas storefront launch",
+   "attendees": [
+    "Aisha",
+    "Tom",
+    "Lucia",
+    "Priya"
+   ],
+   "decision_token": "B6",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Aisha",
+     "what": "write up the requirements doc",
+     "due": "2026-08-10"
+    },
+    {
+     "owner": "Tom",
+     "what": "update the schedule",
+     "due": "2026-08-12"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-14-support-quality",
+   "date": "2026-08-14",
+   "title": "Support quality review: new-user onboarding flow",
+   "attendees": [
+    "Priya",
+    "Marcus",
+    "Tom",
+    "Rob"
+   ],
+   "decision_token": "D8",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Priya",
+     "what": "draft a first design",
+     "due": "2026-08-17"
+    },
+    {
+     "owner": "Marcus",
+     "what": "walk legal through the contract",
+     "due": "2026-08-19"
+    },
+    {
+     "owner": "Tom",
+     "what": "send the internal announcement",
+     "due": "2026-08-21"
+    },
+    {
+     "owner": "Rob",
+     "what": "write the retro report",
+     "due": "2026-08-23"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-21-campaign-planning",
+   "date": "2026-08-21",
+   "title": "Campaign planning: ticket triage rules",
+   "attendees": [
+    "Hanna",
+    "Mei",
+    "Elena",
+    "Tom",
+    "Jonas"
+   ],
+   "decision_token": "D6",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Hanna",
+     "what": "get a quote from the supplier",
+     "due": "2026-08-24"
+    },
+    {
+     "owner": "Mei",
+     "what": "prepare training material",
+     "due": "2026-08-26"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-01-budget-review",
+   "date": "2026-08-01",
+   "title": "Budget review: supplier lead times",
+   "attendees": [
+    "Elena",
+    "Priya",
+    "Sara"
+   ],
+   "decision_token": "C5",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Elena",
+     "what": "backfill last week's data",
+     "due": "2026-08-04"
+    },
+    {
+     "owner": "Priya",
+     "what": "run an A/B test",
+     "due": "2026-08-06"
+    },
+    {
+     "owner": "Sara",
+     "what": "draft a first design",
+     "due": "2026-08-08"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-08-hiring-sync",
+   "date": "2026-08-08",
+   "title": "Hiring sync: overseas storefront launch",
+   "attendees": [
+    "Aisha",
+    "Ben",
+    "Sara",
+    "Jonas",
+    "Mei"
+   ],
+   "decision_token": "C8",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Aisha",
+     "what": "write the retro report",
+     "due": "2026-08-11"
+    },
+    {
+     "owner": "Ben",
+     "what": "collect customer feedback",
+     "due": "2026-08-13"
+    },
+    {
+     "owner": "Sara",
+     "what": "get a quote from the supplier",
+     "due": "2026-08-15"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-15-supply-chain",
+   "date": "2026-08-15",
+   "title": "Supply chain check-in: dashboard metric definitions",
+   "attendees": [
+    "Ben",
+    "Yuki",
+    "Tom",
+    "Jonas",
+    "Carlos"
+   ],
+   "decision_token": "B2",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Ben",
+     "what": "update the schedule",
+     "due": "2026-08-18"
+    },
+    {
+     "owner": "Yuki",
+     "what": "reconcile the budget lines",
+     "due": "2026-08-20"
+    },
+    {
+     "owner": "Tom",
+     "what": "backfill last week's data",
+     "due": "2026-08-22"
+    },
+    {
+     "owner": "Jonas",
+     "what": "run an A/B test",
+     "due": "2026-08-24"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-22-growth-weekly",
+   "date": "2026-08-22",
+   "title": "Growth weekly: push notification frequency",
+   "attendees": [
+    "Elena",
+    "Ben",
+    "Sara",
+    "Marcus",
+    "Dev"
+   ],
+   "decision_token": "D6",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Elena",
+     "what": "walk legal through the contract",
+     "due": "2026-08-25"
+    },
+    {
+     "owner": "Ben",
+     "what": "send the internal announcement",
+     "due": "2026-08-27"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-02-product-review",
+   "date": "2026-08-02",
+   "title": "Product review: hiring plan",
+   "attendees": [
+    "Rob",
+    "Dev",
+    "Elena",
+    "Carlos"
+   ],
+   "decision_token": "A3",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Rob",
+     "what": "prepare training material",
+     "due": "2026-08-05"
+    },
+    {
+     "owner": "Dev",
+     "what": "write up the requirements doc",
+     "due": "2026-08-07"
+    },
+    {
+     "owner": "Elena",
+     "what": "update the schedule",
+     "due": "2026-08-09"
+    },
+    {
+     "owner": "Carlos",
+     "what": "reconcile the budget lines",
+     "due": "2026-08-11"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-09-tech-design",
+   "date": "2026-08-09",
+   "title": "Tech design discussion: new-user onboarding flow",
+   "attendees": [
+    "Ben",
+    "Aisha",
+    "Carlos",
+    "Lucia"
+   ],
+   "decision_token": "C5",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Ben",
+     "what": "run an A/B test",
+     "due": "2026-08-12"
+    },
+    {
+     "owner": "Aisha",
+     "what": "draft a first design",
+     "due": "2026-08-14"
+    },
+    {
+     "owner": "Carlos",
+     "what": "walk legal through the contract",
+     "due": "2026-08-16"
+    },
+    {
+     "owner": "Lucia",
+     "what": "send the internal announcement",
+     "due": "2026-08-18"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-16-ops-retro",
+   "date": "2026-08-16",
+   "title": "Ops retro: overseas storefront launch",
+   "attendees": [
+    "Priya",
+    "Hanna",
+    "Elena",
+    "Sara"
+   ],
+   "decision_token": "D8",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Priya",
+     "what": "collect customer feedback",
+     "due": "2026-08-19"
+    },
+    {
+     "owner": "Hanna",
+     "what": "get a quote from the supplier",
+     "due": "2026-08-21"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-23-sales-sync",
+   "date": "2026-08-23",
+   "title": "Sales sync: Q4 pricing",
+   "attendees": [
+    "Carlos",
+    "Priya",
+    "Lucia"
+   ],
+   "decision_token": "C7",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Carlos",
+     "what": "reconcile the budget lines",
+     "due": "2026-08-26"
+    },
+    {
+     "owner": "Priya",
+     "what": "backfill last week's data",
+     "due": "2026-08-28"
+    },
+    {
+     "owner": "Lucia",
+     "what": "run an A/B test",
+     "due": "2026-08-28"
+    },
+    {
+     "owner": "Carlos",
+     "what": "draft a first design",
+     "due": "2026-08-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-03-support-quality",
+   "date": "2026-08-03",
+   "title": "Support quality review: dashboard metric definitions",
+   "attendees": [
+    "Sara",
+    "Aisha",
+    "Mei",
+    "Marcus",
+    "Dev"
+   ],
+   "decision_token": "B5",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Sara",
+     "what": "send the internal announcement",
+     "due": "2026-08-06"
+    },
+    {
+     "owner": "Aisha",
+     "what": "write the retro report",
+     "due": "2026-08-08"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-10-campaign-planning",
+   "date": "2026-08-10",
+   "title": "Campaign planning: contract approval flow",
+   "attendees": [
+    "Aisha",
+    "Lucia",
+    "Priya",
+    "Yuki",
+    "Carlos"
+   ],
+   "decision_token": "C2",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Aisha",
+     "what": "write up the requirements doc",
+     "due": "2026-08-13"
+    },
+    {
+     "owner": "Lucia",
+     "what": "update the schedule",
+     "due": "2026-08-15"
+    },
+    {
+     "owner": "Priya",
+     "what": "reconcile the budget lines",
+     "due": "2026-08-17"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-17-budget-review",
+   "date": "2026-08-17",
+   "title": "Budget review: rising return rate",
+   "attendees": [
+    "Mei",
+    "Dev",
+    "Lucia"
+   ],
+   "decision_token": "D3",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Mei",
+     "what": "draft a first design",
+     "due": "2026-08-20"
+    },
+    {
+     "owner": "Dev",
+     "what": "walk legal through the contract",
+     "due": "2026-08-22"
+    },
+    {
+     "owner": "Lucia",
+     "what": "send the internal announcement",
+     "due": "2026-08-24"
+    },
+    {
+     "owner": "Mei",
+     "what": "write the retro report",
+     "due": "2026-08-26"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-24-hiring-sync",
+   "date": "2026-08-24",
+   "title": "Hiring sync: app home redesign",
+   "attendees": [
+    "Aisha",
+    "Jonas",
+    "Hanna"
+   ],
+   "decision_token": "B6",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Aisha",
+     "what": "get a quote from the supplier",
+     "due": "2026-08-27"
+    },
+    {
+     "owner": "Jonas",
+     "what": "prepare training material",
+     "due": "2026-08-28"
+    },
+    {
+     "owner": "Hanna",
+     "what": "write up the requirements doc",
+     "due": "2026-08-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-08-04-supply-chain",
+   "date": "2026-08-04",
+   "title": "Supply chain check-in: warehouse move",
+   "attendees": [
+    "Carlos",
+    "Tom",
+    "Aisha",
+    "Rob",
+    "Hanna"
+   ],
+   "decision_token": "B2",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Carlos",
+     "what": "backfill last week's data",
+     "due": "2026-08-07"
+    },
+    {
+     "owner": "Tom",
+     "what": "run an A/B test",
+     "due": "2026-08-09"
+    },
+    {
+     "owner": "Aisha",
+     "what": "draft a first design",
+     "due": "2026-08-11"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-11-growth-weekly",
+   "date": "2026-09-11",
+   "title": "Growth weekly: Q4 pricing",
+   "attendees": [
+    "Ben",
+    "Hanna",
+    "Yuki",
+    "Sara"
+   ],
+   "decision_token": "C2",
+   "budget": 15,
+   "actions": [
+    {
+     "owner": "Ben",
+     "what": "write the retro report",
+     "due": "2026-09-14"
+    },
+    {
+     "owner": "Hanna",
+     "what": "collect customer feedback",
+     "due": "2026-09-16"
+    },
+    {
+     "owner": "Yuki",
+     "what": "get a quote from the supplier",
+     "due": "2026-09-18"
+    },
+    {
+     "owner": "Sara",
+     "what": "prepare training material",
+     "due": "2026-09-20"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-18-product-review",
+   "date": "2026-09-18",
+   "title": "Product review: hiring plan",
+   "attendees": [
+    "Lucia",
+    "Ben",
+    "Hanna"
+   ],
+   "decision_token": "C5",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Lucia",
+     "what": "update the schedule",
+     "due": "2026-09-21"
+    },
+    {
+     "owner": "Ben",
+     "what": "reconcile the budget lines",
+     "due": "2026-09-23"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-25-tech-design",
+   "date": "2026-09-25",
+   "title": "Tech design discussion: live-shopping pilot",
+   "attendees": [
+    "Elena",
+    "Lucia",
+    "Mei"
+   ],
+   "decision_token": "A2",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Elena",
+     "what": "walk legal through the contract",
+     "due": "2026-09-28"
+    },
+    {
+     "owner": "Lucia",
+     "what": "send the internal announcement",
+     "due": "2026-09-28"
+    },
+    {
+     "owner": "Mei",
+     "what": "write the retro report",
+     "due": "2026-09-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-05-ops-retro",
+   "date": "2026-09-05",
+   "title": "Ops retro: hiring plan",
+   "attendees": [
+    "Lucia",
+    "Dev",
+    "Sara",
+    "Ben",
+    "Jonas"
+   ],
+   "decision_token": "A4",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Lucia",
+     "what": "prepare training material",
+     "due": "2026-09-08"
+    },
+    {
+     "owner": "Dev",
+     "what": "write up the requirements doc",
+     "due": "2026-09-10"
+    },
+    {
+     "owner": "Sara",
+     "what": "update the schedule",
+     "due": "2026-09-12"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-12-sales-sync",
+   "date": "2026-09-12",
+   "title": "Sales sync: support response times",
+   "attendees": [
+    "Jonas",
+    "Ben",
+    "Elena"
+   ],
+   "decision_token": "B3",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Jonas",
+     "what": "run an A/B test",
+     "due": "2026-09-15"
+    },
+    {
+     "owner": "Ben",
+     "what": "draft a first design",
+     "due": "2026-09-17"
+    },
+    {
+     "owner": "Elena",
+     "what": "walk legal through the contract",
+     "due": "2026-09-19"
+    },
+    {
+     "owner": "Jonas",
+     "what": "send the internal announcement",
+     "due": "2026-09-21"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-19-support-quality",
+   "date": "2026-09-19",
+   "title": "Support quality review: ticket triage rules",
+   "attendees": [
+    "Lucia",
+    "Aisha",
+    "Carlos",
+    "Mei",
+    "Omar"
+   ],
+   "decision_token": "D6",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Lucia",
+     "what": "collect customer feedback",
+     "due": "2026-09-22"
+    },
+    {
+     "owner": "Aisha",
+     "what": "get a quote from the supplier",
+     "due": "2026-09-24"
+    },
+    {
+     "owner": "Carlos",
+     "what": "prepare training material",
+     "due": "2026-09-26"
+    },
+    {
+     "owner": "Mei",
+     "what": "write up the requirements doc",
+     "due": "2026-09-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-26-campaign-planning",
+   "date": "2026-09-26",
+   "title": "Campaign planning: hiring plan",
+   "attendees": [
+    "Yuki",
+    "Jonas",
+    "Elena",
+    "Rob",
+    "Omar"
+   ],
+   "decision_token": "A7",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Yuki",
+     "what": "reconcile the budget lines",
+     "due": "2026-09-28"
+    },
+    {
+     "owner": "Jonas",
+     "what": "backfill last week's data",
+     "due": "2026-09-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-06-budget-review",
+   "date": "2026-09-06",
+   "title": "Budget review: supplier lead times",
+   "attendees": [
+    "Jonas",
+    "Dev",
+    "Mei",
+    "Carlos",
+    "Yuki"
+   ],
+   "decision_token": "B3",
+   "budget": 12,
+   "actions": [
+    {
+     "owner": "Jonas",
+     "what": "send the internal announcement",
+     "due": "2026-09-09"
+    },
+    {
+     "owner": "Dev",
+     "what": "write the retro report",
+     "due": "2026-09-11"
+    },
+    {
+     "owner": "Mei",
+     "what": "collect customer feedback",
+     "due": "2026-09-13"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-13-hiring-sync",
+   "date": "2026-09-13",
+   "title": "Hiring sync: hiring plan",
+   "attendees": [
+    "Dev",
+    "Marcus",
+    "Jonas"
+   ],
+   "decision_token": "D6",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Dev",
+     "what": "write up the requirements doc",
+     "due": "2026-09-16"
+    },
+    {
+     "owner": "Marcus",
+     "what": "update the schedule",
+     "due": "2026-09-18"
+    },
+    {
+     "owner": "Jonas",
+     "what": "reconcile the budget lines",
+     "due": "2026-09-20"
+    },
+    {
+     "owner": "Dev",
+     "what": "backfill last week's data",
+     "due": "2026-09-22"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-20-supply-chain",
+   "date": "2026-09-20",
+   "title": "Supply chain check-in: push notification frequency",
+   "attendees": [
+    "Mei",
+    "Sara",
+    "Tom",
+    "Lucia",
+    "Priya"
+   ],
+   "decision_token": "B2",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Mei",
+     "what": "draft a first design",
+     "due": "2026-09-23"
+    },
+    {
+     "owner": "Sara",
+     "what": "walk legal through the contract",
+     "due": "2026-09-25"
+    },
+    {
+     "owner": "Tom",
+     "what": "send the internal announcement",
+     "due": "2026-09-27"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-27-growth-weekly",
+   "date": "2026-09-27",
+   "title": "Growth weekly: warehouse move",
+   "attendees": [
+    "Tom",
+    "Aisha",
+    "Elena"
+   ],
+   "decision_token": "A4",
+   "budget": 20,
+   "actions": [
+    {
+     "owner": "Tom",
+     "what": "get a quote from the supplier",
+     "due": "2026-09-28"
+    },
+    {
+     "owner": "Aisha",
+     "what": "prepare training material",
+     "due": "2026-09-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-07-product-review",
+   "date": "2026-09-07",
+   "title": "Product review: membership renewal reminders",
+   "attendees": [
+    "Sara",
+    "Marcus",
+    "Omar",
+    "Rob"
+   ],
+   "decision_token": "D6",
+   "budget": 8,
+   "actions": [
+    {
+     "owner": "Sara",
+     "what": "backfill last week's data",
+     "due": "2026-09-10"
+    },
+    {
+     "owner": "Marcus",
+     "what": "run an A/B test",
+     "due": "2026-09-12"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-14-tech-design",
+   "date": "2026-09-14",
+   "title": "Tech design discussion: new-user onboarding flow",
+   "attendees": [
+    "Tom",
+    "Hanna",
+    "Ben",
+    "Omar",
+    "Aisha"
+   ],
+   "decision_token": "A9",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Tom",
+     "what": "write the retro report",
+     "due": "2026-09-17"
+    },
+    {
+     "owner": "Hanna",
+     "what": "collect customer feedback",
+     "due": "2026-09-19"
+    },
+    {
+     "owner": "Ben",
+     "what": "get a quote from the supplier",
+     "due": "2026-09-21"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-21-ops-retro",
+   "date": "2026-09-21",
+   "title": "Ops retro: warehouse move",
+   "attendees": [
+    "Elena",
+    "Sara",
+    "Priya",
+    "Marcus"
+   ],
+   "decision_token": "D6",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Elena",
+     "what": "update the schedule",
+     "due": "2026-09-24"
+    },
+    {
+     "owner": "Sara",
+     "what": "reconcile the budget lines",
+     "due": "2026-09-26"
+    },
+    {
+     "owner": "Priya",
+     "what": "backfill last week's data",
+     "due": "2026-09-28"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-01-sales-sync",
+   "date": "2026-09-01",
+   "title": "Sales sync: hiring plan",
+   "attendees": [
+    "Lucia",
+    "Ben",
+    "Elena"
+   ],
+   "decision_token": "B6",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Lucia",
+     "what": "walk legal through the contract",
+     "due": "2026-09-04"
+    },
+    {
+     "owner": "Ben",
+     "what": "send the internal announcement",
+     "due": "2026-09-06"
+    },
+    {
+     "owner": "Elena",
+     "what": "write the retro report",
+     "due": "2026-09-08"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-08-support-quality",
+   "date": "2026-09-08",
+   "title": "Support quality review: app home redesign",
+   "attendees": [
+    "Omar",
+    "Mei",
+    "Elena",
+    "Jonas"
+   ],
+   "decision_token": "A8",
+   "budget": 15,
+   "actions": [
+    {
+     "owner": "Omar",
+     "what": "prepare training material",
+     "due": "2026-09-11"
+    },
+    {
+     "owner": "Mei",
+     "what": "write up the requirements doc",
+     "due": "2026-09-13"
+    },
+    {
+     "owner": "Elena",
+     "what": "update the schedule",
+     "due": "2026-09-15"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-15-campaign-planning",
+   "date": "2026-09-15",
+   "title": "Campaign planning: Q4 pricing",
+   "attendees": [
+    "Priya",
+    "Omar",
+    "Sara",
+    "Ben"
+   ],
+   "decision_token": "D4",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Priya",
+     "what": "run an A/B test",
+     "due": "2026-09-18"
+    },
+    {
+     "owner": "Omar",
+     "what": "draft a first design",
+     "due": "2026-09-20"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-22-budget-review",
+   "date": "2026-09-22",
+   "title": "Budget review: overseas storefront launch",
+   "attendees": [
+    "Elena",
+    "Aisha",
+    "Omar",
+    "Marcus",
+    "Dev"
+   ],
+   "decision_token": "A9",
+   "budget": 30,
+   "actions": [
+    {
+     "owner": "Elena",
+     "what": "collect customer feedback",
+     "due": "2026-09-25"
+    },
+    {
+     "owner": "Aisha",
+     "what": "get a quote from the supplier",
+     "due": "2026-09-27"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-02-hiring-sync",
+   "date": "2026-09-02",
+   "title": "Hiring sync: membership renewal reminders",
+   "attendees": [
+    "Carlos",
+    "Sara",
+    "Dev",
+    "Mei",
+    "Priya"
+   ],
+   "decision_token": "A6",
+   "budget": 15,
+   "actions": [
+    {
+     "owner": "Carlos",
+     "what": "reconcile the budget lines",
+     "due": "2026-09-05"
+    },
+    {
+     "owner": "Sara",
+     "what": "backfill last week's data",
+     "due": "2026-09-07"
+    },
+    {
+     "owner": "Dev",
+     "what": "run an A/B test",
+     "due": "2026-09-09"
+    },
+    {
+     "owner": "Mei",
+     "what": "draft a first design",
+     "due": "2026-09-11"
+    }
+   ]
+  },
+  {
+   "stem": "2026-09-09-supply-chain",
+   "date": "2026-09-09",
+   "title": "Supply chain check-in: live-shopping pilot",
+   "attendees": [
+    "Marcus",
+    "Tom",
+    "Sara",
+    "Mei"
+   ],
+   "decision_token": "C3",
+   "budget": 45,
+   "actions": [
+    {
+     "owner": "Marcus",
+     "what": "send the internal announcement",
+     "due": "2026-09-12"
+    },
+    {
+     "owner": "Tom",
+     "what": "write the retro report",
+     "due": "2026-09-14"
+    },
+    {
+     "owner": "Sara",
+     "what": "collect customer feedback",
+     "due": "2026-09-16"
+    },
+    {
+     "owner": "Mei",
+     "what": "get a quote from the supplier",
+     "due": "2026-09-18"
+    }
+   ]
+  }
+ ]
+}

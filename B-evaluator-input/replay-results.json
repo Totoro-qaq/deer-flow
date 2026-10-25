@@ -1,0 +1,90 @@
+{
+  "source_commit": "505c33c793389451f2ce7183bdbd4f3465f22f66",
+  "provider_calls": 0,
+  "cases": [
+    {
+      "case": "observed-A-deepseek",
+      "matches_published_input": true,
+      "source_user_chars": 10375,
+      "answer_chars": 1559,
+      "uncapped_evidence_chars": 11953,
+      "formatted_evidence_chars": 11953,
+      "cap_chars": 12000,
+      "unused_cap_chars": 47,
+      "document_5_source_offset": 3694,
+      "source_document_ids": [
+        "85",
+        "5"
+      ],
+      "formatted_document_ids": [
+        "85",
+        "5"
+      ],
+      "document_5_kept": true,
+      "formatted_evidence_sha256": "227473a0d25384d88c7acee2c9268f34565382a317aaec9e7d335cc529219bba"
+    },
+    {
+      "case": "observed-B-glm",
+      "matches_published_input": true,
+      "source_user_chars": 10375,
+      "answer_chars": 1733,
+      "uncapped_evidence_chars": 12127,
+      "formatted_evidence_chars": 3767,
+      "cap_chars": 12000,
+      "unused_cap_chars": 8233,
+      "document_5_source_offset": 3694,
+      "source_document_ids": [
+        "85",
+        "5"
+      ],
+      "formatted_document_ids": [
+        "85"
+      ],
+      "document_5_kept": false,
+      "formatted_evidence_sha256": "94115b18638e94752c967cb88360440b407f6b93807f8db48ad08950f9798f81"
+    },
+    {
+      "case": "boundary-12000",
+      "extra_internal_spaces": 47,
+      "hypothetical_formatter_input": true,
+      "source_user_chars": 10375,
+      "answer_chars": 1606,
+      "uncapped_evidence_chars": 12000,
+      "formatted_evidence_chars": 12000,
+      "cap_chars": 12000,
+      "unused_cap_chars": 0,
+      "document_5_source_offset": 3694,
+      "source_document_ids": [
+        "85",
+        "5"
+      ],
+      "formatted_document_ids": [
+        "85",
+        "5"
+      ],
+      "document_5_kept": true,
+      "formatted_evidence_sha256": "6253f5cb4ed69e1c4d0d8e5a81fd0bab3fdf20939d0e2d7176cb1270c4f8462b"
+    },
+    {
+      "case": "boundary-12001",
+      "extra_internal_spaces": 48,
+      "hypothetical_formatter_input": true,
+      "source_user_chars": 10375,
+      "answer_chars": 1607,
+      "uncapped_evidence_chars": 12001,
+      "formatted_evidence_chars": 3641,
+      "cap_chars": 12000,
+      "unused_cap_chars": 8359,
+      "document_5_source_offset": 3694,
+      "source_document_ids": [
+        "85",
+        "5"
+      ],
+      "formatted_document_ids": [
+        "85"
+      ],
+      "document_5_kept": false,
+      "formatted_evidence_sha256": "57be2d928669956b40a6dd2086bbadc24ba59fc7237b2d1421dfec358b3ca870"
+    }
+  ]
+}
