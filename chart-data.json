@@ -1,0 +1,97 @@
+{
+  "base": "00678f06",
+  "setup": "default lead-agent middleware chain, LocalSandboxProvider, default summarization and memory, thinking/plan mode/subagents off, scripted fake model",
+  "points": [
+    {
+      "tool_calling_turns": 0,
+      "min_recursion_limit": 22
+    },
+    {
+      "tool_calling_turns": 1,
+      "min_recursion_limit": 35
+    },
+    {
+      "tool_calling_turns": 2,
+      "min_recursion_limit": 48
+    },
+    {
+      "tool_calling_turns": 4,
+      "min_recursion_limit": 74
+    },
+    {
+      "tool_calling_turns": 6,
+      "min_recursion_limit": 100
+    },
+    {
+      "tool_calling_turns": 7,
+      "min_recursion_limit": 113
+    },
+    {
+      "tool_calling_turns": 10,
+      "min_recursion_limit": 152
+    },
+    {
+      "tool_calling_turns": 17,
+      "min_recursion_limit": 243
+    },
+    {
+      "tool_calling_turns": 18,
+      "min_recursion_limit": 256
+    },
+    {
+      "tool_calling_turns": 20,
+      "min_recursion_limit": 282
+    },
+    {
+      "tool_calling_turns": 30,
+      "min_recursion_limit": 412
+    },
+    {
+      "tool_calling_turns": 40,
+      "min_recursion_limit": 542
+    },
+    {
+      "tool_calling_turns": 50,
+      "min_recursion_limit": 672
+    },
+    {
+      "tool_calling_turns": 60,
+      "min_recursion_limit": 802
+    },
+    {
+      "tool_calling_turns": 75,
+      "min_recursion_limit": 997
+    },
+    {
+      "tool_calling_turns": 76,
+      "min_recursion_limit": 1010
+    }
+  ],
+  "budget_checks": [
+    {
+      "budget": 100,
+      "finishes_with": 6,
+      "fails_with": 7,
+      "tool_results_before_failure": 7
+    },
+    {
+      "budget": 250,
+      "finishes_with": 17,
+      "fails_with": 18,
+      "tool_results_before_failure": 18
+    },
+    {
+      "budget": 1000,
+      "finishes_with": 75,
+      "fails_with": 76,
+      "tool_results_before_failure": 76
+    }
+  ],
+  "parallel_check": {
+    "turns": 6,
+    "calls_per_turn": 3,
+    "tool_results": 18,
+    "finishes_at": 100,
+    "fails_at": 99
+  }
+}
