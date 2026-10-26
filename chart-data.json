@@ -1,0 +1,315 @@
+{
+  "runs": 32,
+  "outcomes": {
+    "delivered": 28,
+    "after_loop_warning": 2,
+    "step_limit": 2
+  },
+  "runs_with_loop_warning": 16,
+  "runs_with_loop_warning_delivered": 12,
+  "batches": [
+    {
+      "label": "Compaction threshold A/B",
+      "runs": [
+        {
+          "run": "ct-T3-r1-A",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "ct-T3-r1-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "ct-T3-r2-A",
+          "error_type": "",
+          "loop_warnings": 3,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "ct-T3-r2-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "ct-branches-r1-A",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 74,
+          "presented": 0,
+          "outcome": "after_loop_warning"
+        },
+        {
+          "run": "ct-branches-r1-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 6,
+          "outcome": "delivered"
+        },
+        {
+          "run": "ct-branches-r2-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 4,
+          "outcome": "delivered"
+        },
+        {
+          "run": "ct-branches-r2-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 5,
+          "outcome": "delivered"
+        }
+      ]
+    },
+    {
+      "label": "Lead effort A/B",
+      "runs": [
+        {
+          "run": "le-T3-r1-A",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-T3-r1-B",
+          "error_type": "",
+          "loop_warnings": 2,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-T3-r2-A",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-T3-r2-B",
+          "error_type": "GraphRecursionError",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 0,
+          "outcome": "step_limit"
+        },
+        {
+          "run": "le-branches-r1-A",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-branches-r1-B",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 4,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-branches-r2-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 9,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-branches-r2-B",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 6,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-expense-r1-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-expense-r1-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-expense-r2-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-expense-r2-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-minutes-r1-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 61,
+          "presented": 4,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-minutes-r1-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 61,
+          "presented": 4,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-minutes-r2-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 61,
+          "presented": 3,
+          "outcome": "delivered"
+        },
+        {
+          "run": "le-minutes-r2-B",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 61,
+          "presented": 4,
+          "outcome": "delivered"
+        }
+      ]
+    },
+    {
+      "label": "Compaction keep A/B",
+      "runs": [
+        {
+          "run": "keep-T3-r1-A",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "keep-T3-r1-B",
+          "error_type": "",
+          "loop_warnings": 3,
+          "loop_hard_stops": 0,
+          "produced": 3,
+          "presented": 0,
+          "outcome": "after_loop_warning"
+        },
+        {
+          "run": "keep-T3-r2-A",
+          "error_type": "GraphRecursionError",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 0,
+          "outcome": "step_limit"
+        },
+        {
+          "run": "keep-T3-r2-B",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 2,
+          "presented": 2,
+          "outcome": "delivered"
+        },
+        {
+          "run": "keep-branches-r1-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 5,
+          "outcome": "delivered"
+        },
+        {
+          "run": "keep-branches-r1-B",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 5,
+          "outcome": "delivered"
+        },
+        {
+          "run": "keep-branches-r2-A",
+          "error_type": "",
+          "loop_warnings": 0,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 7,
+          "outcome": "delivered"
+        },
+        {
+          "run": "keep-branches-r2-B",
+          "error_type": "",
+          "loop_warnings": 1,
+          "loop_hard_stops": 0,
+          "produced": 38,
+          "presented": 5,
+          "outcome": "delivered"
+        }
+      ]
+    }
+  ]
+}
